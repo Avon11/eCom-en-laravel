@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-comm Project</title>
     <!-- Latest compiled and minified CSS -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="D:\Study\laravel Ecom\eComm-en\resources\ionicons-2.0.1\css">
 
 <!-- Optional theme -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -25,7 +27,10 @@
         padding-top: 100px;
     }
     img.slider-img{
-        height: 400px !important
+        background-color: #333;
+        padding: 0px 100px;
+        width: 800px ;
+        height: 400px !important;
     }
     .custom-product{
         height: 600px
@@ -34,9 +39,11 @@
         background-color: #35443585 !important;
     }
     .trending-image{
+        width: 120px;
         height: 100px;
     }
     .trening-item{
+        margin: 5px;
         float: left;
         width: 20%;
     }
@@ -44,6 +51,7 @@
         margin: 30px;
     }
     .detail-img{
+        width: 50%;
         height: 200px;
     }
     .search-box{
@@ -55,4 +63,6 @@
         padding-bottom: 20px
     }
 </style>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>

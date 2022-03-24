@@ -59,7 +59,8 @@
     .cart-list-devider{
         border-bottom: 1px solid #ccc;
         margin-bottom: 20px;
-        padding-bottom: 20px
+        padding-bottom: 20px;
+        
     }
 </style>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

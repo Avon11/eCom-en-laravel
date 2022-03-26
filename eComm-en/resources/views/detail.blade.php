@@ -20,6 +20,10 @@
        <br><br>
        <button class="btn btn-success">Buy Now</button>
        <br><br>
+       <br><br>
+       <br><br>
+       <br><br> 
+       <br><br>
     </div>
    </div>
 </div>

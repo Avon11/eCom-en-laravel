@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>E-comm Project</title>
+    <title>Onilne Cart</title>
 
     <!-- Latest compiled and minified CSS -->
-
+  
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -28,6 +28,7 @@
     }
     img.slider-img{
         background-color: #333;
+        margin-left: 350px;
         padding: 0px 100px;
         width: 800px ;
         height: 400px !important;
@@ -63,6 +64,62 @@
         padding-bottom: 20px;
 
     }
+    footer{
+    background-color: #333;
+    
+    padding: 10px;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+    font-size: 70%;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav  li,
+.social-links li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer-nav  li:last-child,
+.social-links li:last-child{
+    margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+
+
+
+
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 70%;
+    margin-top: 30px;
+
+}
+
+
 </style>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
